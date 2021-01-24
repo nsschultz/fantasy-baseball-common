@@ -1,0 +1,1 @@
+Common objects that are used by multiple services. This project will be restructed/replaced in future releases.

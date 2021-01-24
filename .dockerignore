@@ -1,0 +1,8 @@
+**/bin
+**/obj
+.dockerignore
+.gitignore
+Dockerfile
+Jenkinsfile
+LICENSE
+README.md
