@@ -9,9 +9,9 @@ pipeline {
         stage('build and publish') { 
             steps { script { sh  """
                 #!/bin/bash
-                docker build -t nschultz/fantasy-baseball-common-models:${version} .
-                docker login -u ${userName} -p ${password}
-                docker push nschultz/fantasy-baseball-common-models:${version}
+                docker build -t nschultz/fantasy-baseball-common-models:${IMAGE_VERSION} .
+                docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}
+                docker push nschultz/fantasy-baseball-common-models:${IMAGE_VERSION}
                 docker logout
             """ } } 
         }
