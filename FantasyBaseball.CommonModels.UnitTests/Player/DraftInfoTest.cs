@@ -8,9 +8,9 @@ namespace FantasyBaseball.CommonModels.UnitTests.Player
         [Fact] public void DefaultsSetTest()
         {
             var obj = new DraftInfo();
-            Assert.Equal(DraftInfo.MaxDraftPick, obj.DraftRank);
-            Assert.Equal(DraftInfo.MaxDraftPick, obj.AverageDraftPick);
-            Assert.Equal(DraftInfo.MaxDraftPick, obj.HighestPick);
+            Assert.Equal(9999, obj.DraftRank);
+            Assert.Equal(9999, obj.AverageDraftPick);
+            Assert.Equal(9999, obj.HighestPick);
             Assert.Equal(0, obj.DraftedPercentage);
         }
     }
