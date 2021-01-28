@@ -3,7 +3,7 @@ namespace FantasyBaseball.CommonModels.Player
     /// <summary>Draft Info for a given Player.</summary>
     public class DraftInfo
     {   
-        public static readonly int MaxDraftPick = 9999;
+        private const int MaxDraftPick = 9999;
 
         /// <summary>The rank of this player in the draft.</summary>
         public int DraftRank { get; set; } = MaxDraftPick;
