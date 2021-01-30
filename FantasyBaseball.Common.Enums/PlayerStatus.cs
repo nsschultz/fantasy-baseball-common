@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace FantasyBaseball.CommonModels.Enums
+namespace FantasyBaseball.Common.Enums
 {
     /// <summary>The status of the player.</summary>
     public enum PlayerStatus

@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.Linq;
 
-namespace FantasyBaseball.CommonModels.Enums
+namespace FantasyBaseball.Common.Enums
 {
     /// <summary>Utility methods for the enums.</summary>
     public static class EnumUtility

@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace FantasyBaseball.CommonModels.Enums
+namespace FantasyBaseball.Common.Enums
 {
     /// <summary>The type of stats.</summary>
     public enum StatsType

@@ -1,10 +1,10 @@
-using FantasyBaseball.CommonModels.Enums;
+using FantasyBaseball.Common.Enums;
 using Xunit;
-using static FantasyBaseball.CommonModels.Enums.EnumUtility;
+using static FantasyBaseball.Common.Enums.EnumUtility;
 
-namespace FantasyBaseball.CommonModels.UnitTests.Enums
+namespace FantasyBaseball.Common.Enums.UnitTests
 {
-    public class StatsTypeTest
+    public class EnumUtilityTest
     {
         [Theory]
         [InlineData(StatsType.CMBD, "Combined Stats"    )]
