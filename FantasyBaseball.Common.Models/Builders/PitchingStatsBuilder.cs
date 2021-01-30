@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using FantasyBaseball.CommonModels.Stats;
+using FantasyBaseball.Common.Models;
 
-namespace FantasyBaseball.CommonModels.Builders
+namespace FantasyBaseball.Common.Models.Builders
 {
     /// <summary>Builds a new instance of a <c>PitchingStats</c> from one or more instances.</summary>
     public class PitchingStatsBuilder

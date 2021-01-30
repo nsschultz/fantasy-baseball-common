@@ -1,8 +1,8 @@
-using FantasyBaseball.CommonModels.Builders;
-using FantasyBaseball.CommonModels.Stats;
+using FantasyBaseball.Common.Models.Builders;
+using FantasyBaseball.Common.Models;
 using Xunit;
 
-namespace FantasyBaseball.CommonModels.UnitTests.Builders
+namespace FantasyBaseball.Common.Models.Builders.UnitTests
 {
     public class BattingStatsBuilderTest
     {

@@ -1,4 +1,4 @@
-namespace FantasyBaseball.CommonModels.Stats
+namespace FantasyBaseball.Common.Models
 {
     /// <summary>A single type of batting stats.</summary>
     public class BattingStats

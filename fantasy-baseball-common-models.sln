@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyBaseball.CommonModels", "FantasyBaseball.CommonModels\FantasyBaseball.CommonModels.csproj", "{359A5921-0FE0-4B39-9156-685D66558713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyBaseball.Common.Models", "FantasyBaseball.Common.Models\FantasyBaseball.Common.Models.csproj", "{359A5921-0FE0-4B39-9156-685D66558713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyBaseball.CommonModels.UnitTests", "FantasyBaseball.CommonModels.UnitTests\FantasyBaseball.CommonModels.UnitTests.csproj", "{4FB60D0C-39A4-4328-8215-65A169D40994}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyBaseball.Common.Models.UnitTests", "FantasyBaseball.Common.Models.UnitTests\FantasyBaseball.Common.Models.UnitTests.csproj", "{4FB60D0C-39A4-4328-8215-65A169D40994}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

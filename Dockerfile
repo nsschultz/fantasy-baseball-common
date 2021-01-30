@@ -15,7 +15,17 @@ ENV MAIN_PROJ=FantasyBaseball.Common.Exceptions \
     SONAR_KEY=fantasy-baseball-common-exceptions
 RUN --mount=type=cache,id=sonarqube,target=/root/.sonar/cache ./build.sh
 
+FROM nschultz/base-csharp-builder:5.0.102 AS build-models
+COPY --from=build-enums /app/out /libs/
+COPY fantasy-baseball-common-models.sln /app
+COPY FantasyBaseball.Common.Models/ /app/FantasyBaseball.Common.Models
+COPY FantasyBaseball.Common.Models.UnitTests/ /app/FantasyBaseball.Common.Exceptions.Models
+ENV MAIN_PROJ=FantasyBaseball.Common.Exceptions \
+    SONAR_KEY=fantasy-baseball-common-models
+RUN --mount=type=cache,id=sonarqube,target=/root/.sonar/cache ./build.sh
+
 FROM nschultz/base-csharp-builder:5.0.102
 COPY --from=build-enums /app/out /libs/
 COPY --from=build-exceptions /app/out /libs/
+COPY --from=build-models /app/out /libs/
 WORKDIR /app

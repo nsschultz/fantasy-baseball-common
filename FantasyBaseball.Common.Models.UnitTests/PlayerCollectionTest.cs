@@ -1,7 +1,7 @@
-using FantasyBaseball.CommonModels.Player;
+using FantasyBaseball.Common.Models;
 using Xunit;
 
-namespace FantasyBaseball.CommonModels.UnitTests.Player
+namespace FantasyBaseball.Common.Models.UnitTests
 {
     public class PlayerCollectionTest
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace FantasyBaseball.CommonModels.Player
+namespace FantasyBaseball.Common.Models
 {
     /// <summary>A simple object for holding a collection of <c>BaseballPlayer</c> objects.</summary>
     public class PlayerCollection
