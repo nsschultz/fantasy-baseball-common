@@ -1,4 +1,3 @@
-using FantasyBaseball.Common.Enums;
 using Xunit;
 using static FantasyBaseball.Common.Enums.EnumUtility;
 

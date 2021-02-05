@@ -1,4 +1,3 @@
-using FantasyBaseball.Common.Models;
 using Xunit;
 
 namespace FantasyBaseball.Common.Models.UnitTests

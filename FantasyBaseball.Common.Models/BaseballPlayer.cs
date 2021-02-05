@@ -1,6 +1,5 @@
-using FantasyBaseball.Common.Enums;
 using System;
-using System.Collections.Generic;
+using FantasyBaseball.Common.Enums;
 
 namespace FantasyBaseball.Common.Models
 {

@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using FantasyBaseball.Common.Models;
 
 namespace FantasyBaseball.Common.Models.Builders
 {
