@@ -1,4 +1,3 @@
-using FantasyBaseball.Common.Exceptions;
 using System;
 using Xunit;
 

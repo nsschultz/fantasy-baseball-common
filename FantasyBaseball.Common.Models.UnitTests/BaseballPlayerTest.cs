@@ -1,6 +1,5 @@
-using FantasyBaseball.Common.Enums;
-using FantasyBaseball.Common.Models;
 using System;
+using FantasyBaseball.Common.Enums;
 using Xunit;
 
 namespace FantasyBaseball.Common.Models.UnitTests
